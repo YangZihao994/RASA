@@ -1,0 +1,9 @@
+训练源域
+python train.py \
+    --data_root  /gaoxieping/yzh/Dataset/BraTs_2023_GLI_npy\
+    --save_dir  ./checkpoints \
+    --batch_size 8 \
+    --num_epochs 100 \
+    --num_workers 8
+    
+python verify_dataset.py --data_dir /gaoxieping/yzh/Dataset/BraTs_2023_GLI_npy
